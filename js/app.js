@@ -1,7 +1,6 @@
 $(function(){
 
 	var HelloView = Backbone.View.extend({
-		
 		initialize: function(){
 			this.render();
 		},
@@ -12,5 +11,8 @@ $(function(){
 
 
 	var helloView = new HelloView({el: $('body')});
+
+
+
 
 });
